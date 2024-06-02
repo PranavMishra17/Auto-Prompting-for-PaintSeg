@@ -1,0 +1,1 @@
+Here, GT and MASKS are same. We ran the PaintSeg model on the given GT itself as masks to get the best possible accuracy via manual prompting, which in this case is GT.

@@ -1,10 +1,25 @@
-<font color="red">We build a Segment Anything Model (SAM) with Stable Diffusion Inpainting without any training!</font>
+<font color="red">Developed an innovative autoprompting system for PaintSeg, automating input generation for training-free object segmentation. Leveraged k-means clustering for color-based segmentation and the Dense Prediction Transformer (DPT) model to extract depth maps, creating precise binary and bounding box masks without manual input. Experiments on the DUTS dataset showed IOU scores between 45% and 55%, with enhancements up to 60% using a hybrid prompting strategy. This approach significantly streamlines the segmentation process and paves the way for further automation in image processing tasks.</font>
 
 # Abstract
 <!-- ![avatar](illustration.jpg) -->
-The paper introduces PaintSeg, a new unsupervised method for segmenting objects without any training. We propose an adversarial masked contrastive painting (AMCP) process, which creates a contrast between the original image and a painted image in which a masked area is painted using off-the-shelf generative models. During the painting process, inpainting and outpainting are alternated, with the former masking the foreground and filling in the background, and the latter masking the background while recovering the missing part of the foreground object. Inpainting and outpainting, also referred to as I-step and O-step, allow our method to gradually advance the target segmentation mask toward the ground truth without supervision or training. PaintSeg can be configured to work with a variety of prompts, e.g. coarse masks, boxes, scribbles, and points. Our experimental results demonstrate that PaintSeg outperforms existing approaches in coarse mask-prompt, box-prompt, and point-prompt segmentation tasks, providing a training-free solution suitable for unsupervised segmentation.
+Abstract
+Object segmentation in visual computing has traditionally relied on manual or
+semi-supervised methods that require extensive training and human intervention
+for prompt specification. This paper introduces an innovative autoprompting system
+designed to automate the input generation for PaintSeg, a training-free and
+unseen object segmentation model. Our methodology leverages k-means clustering
+for color-based segmentation and employs the Dense Prediction Transformer
+(DPT) model to extract depth maps, creating precise binary and bounding
+box masks without manual input. Conducted experiments on the DUTS dataset
+demonstrated that our autoprompting approach achieves Intersection Over Union
+(IOU) scores between 45 and 55 percent, with an enhancement of up to 60 percent
+through a hybrid prompting strategy that intelligently combines mask types based
+on their spatial characteristics. This work not only streamlines the segmentation
+process but also opens new avenues for further automation in image processing
+tasks.
 <p align="center"><img src="images/paintseg.png" width="700"/></p>
 
+Reference Paper:
 > [**PaintSeg: Training-free Segmentation via Painting**](https://arxiv.org/abs/2305.19406)
 >
 > Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, Bhiksha Raj

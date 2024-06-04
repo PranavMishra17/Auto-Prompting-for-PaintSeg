@@ -18,7 +18,7 @@ through a hybrid prompting strategy that intelligently combines mask types based
 on their spatial characteristics. This work not only streamlines the segmentation
 process but also opens new avenues for further automation in image processing
 tasks.
-![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111310.png?token=GHSAT0AAAAAACMSHOMPVSP7VXVMDO3RN22IZS7GIHQ)
+![Title](./images/method.png)
 
 Project Report/Paper:
 > [**Automating Prompt Generation for Training-Free
@@ -26,7 +26,7 @@ Object Segmentation in PaintSeg**](AdvML_ProjectReport_Group_6.pdf)
 >
 > Pranav Pushkar Mishra,Annesh Potnis, Aditya Pimpley
 
-![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111342.png?token=GHSAT0AAAAAACMSHOMOW7P73FW4WX7IX7PIZS7GI7A)
+![Title](./images/meth.png)
 
 
 Reference Paper:

@@ -23,19 +23,16 @@ Project Report/Paper:
 > [**Automating Prompt Generation for Training-Free
 Object Segmentation in PaintSeg**](AdvML_ProjectReport_Group_6.pdf)
 >
-> Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, Bhiksha Raj
+> Pranav Pushkar Mishra,Annesh Potnis, Aditya Pimpley
 
 Reference Paper:
 > [**PaintSeg: Training-free Segmentation via Painting**](https://arxiv.org/abs/2305.19406)
 >
 > Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, Bhiksha Raj
 
-# Updates
-- **(2023-11)** Demo released!
-- **(2023-09)** PaintSeg is accepted to NeurIPS 2023!
 
 
-## Environment setup
+### Environment setup
 ```
 conda env create -f environment.yaml
 conda activate PaintSeg
@@ -43,20 +40,11 @@ pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg
 pip install --force-reinstall cython==0.29.36
 pip install --no-build-isolation git+https://github.com/lucasb-eyer/pydensecrf.git
 ```
-## Datasets
+### Datasets
 Download datasets and put them in the main folder.
 ECSSD, DUTS, PASCAL VOC, COCO MVal, GrabCut, Berkeley, DAVIS.
 
-## Run
+### Run
 ```angular2html
 python scripts/PaintSeg.py --outdir $outdir$ --iters $iter_num$ --steps $diffusion step$ --dataset $dataset$ 
-```
-## Citation
-```
-@inproceedings{li2023paintseg,
-  title={PaintSeg: Painting Pixels for Training-free Segmentation},
-  author={Li, Xiang and Lin, Chung-Ching and Chen, Yinpeng and Liu, Zicheng and Wang, Jinglu and Singh, Rita and Raj, Bhiksha},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-  year={2023}
-}
 ```

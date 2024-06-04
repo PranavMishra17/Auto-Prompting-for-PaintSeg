@@ -1,5 +1,5 @@
 <font color="red">Developed an innovative autoprompting system for PaintSeg, automating input generation for training-free object segmentation. Leveraged k-means clustering for color-based segmentation and the Dense Prediction Transformer (DPT) model to extract depth maps, creating precise binary and bounding box masks without manual input. Experiments on the DUTS dataset showed IOU scores between 45% and 55%, with enhancements up to 60% using a hybrid prompting strategy. This approach significantly streamlines the segmentation process and paves the way for further automation in image processing tasks.</font>
-
+![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111357.png?token=GHSAT0AAAAAACMSHOMP6GGHRA7CAHFKKYSIZS7GG5Q)
 # Abstract
 <!-- ![avatar](illustration.jpg) -->
 Abstract
@@ -17,13 +17,16 @@ through a hybrid prompting strategy that intelligently combines mask types based
 on their spatial characteristics. This work not only streamlines the segmentation
 process but also opens new avenues for further automation in image processing
 tasks.
-<p align="center"><img src="images/paintseg.png" width="700"/></p>
+![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111310.png?token=GHSAT0AAAAAACMSHOMPVSP7VXVMDO3RN22IZS7GIHQ)
 
 Project Report/Paper:
 > [**Automating Prompt Generation for Training-Free
 Object Segmentation in PaintSeg**](AdvML_ProjectReport_Group_6.pdf)
 >
 > Pranav Pushkar Mishra,Annesh Potnis, Aditya Pimpley
+
+![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111342.png?token=GHSAT0AAAAAACMSHOMOW7P73FW4WX7IX7PIZS7GI7A)
+
 
 Reference Paper:
 > [**PaintSeg: Training-free Segmentation via Painting**](https://arxiv.org/abs/2305.19406)

@@ -1,6 +1,6 @@
 # Automating Prompt Generation for Training-Free Object Segmentation in PaintSeg
 <font color="red">Developed an innovative autoprompting system for PaintSeg, automating input generation for training-free object segmentation. Leveraged k-means clustering for color-based segmentation and the Dense Prediction Transformer (DPT) model to extract depth maps, creating precise binary and bounding box masks without manual input. Experiments on the DUTS dataset showed IOU scores between 45% and 55%, with enhancements up to 60% using a hybrid prompting strategy. This approach significantly streamlines the segmentation process and paves the way for further automation in image processing tasks.</font>
-![Title](https://raw.githubusercontent.com/PranavMishra17/Auto-Prompting-for-PaintSeg/main/images/Screenshot%202024-06-04%20111357.png?token=GHSAT0AAAAAACMSHOMP6GGHRA7CAHFKKYSIZS7GG5Q)
+![Title](./images/title.png)
 # Abstract
 <!-- ![avatar](illustration.jpg) -->
 Abstract

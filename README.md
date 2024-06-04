@@ -19,6 +19,12 @@ process but also opens new avenues for further automation in image processing
 tasks.
 <p align="center"><img src="images/paintseg.png" width="700"/></p>
 
+Project Report/Paper:
+> [**Automating Prompt Generation for Training-Free
+Object Segmentation in PaintSeg**](AdvML_ProjectReport_Group_6.pdf)
+>
+> Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, Bhiksha Raj
+
 Reference Paper:
 > [**PaintSeg: Training-free Segmentation via Painting**](https://arxiv.org/abs/2305.19406)
 >
